@@ -1,0 +1,65 @@
+{
+  "deck_name": "match_box",
+  "slides": [
+    {
+      "slide_num": 1,
+      "text": "Match Box\n\nthe flirting game...",
+      "label": "Other",
+      "confidence": 0.2258
+    },
+    {
+      "slide_num": 2,
+      "text": "Meet Matt",
+      "label": "Other",
+      "confidence": 0.2728
+    },
+    {
+      "slide_num": 3,
+      "text": "Matt spots a girl he\nlikes at a party...\n\nBUT, like most of us, Matt\nwon't go over to say hello",
+      "label": "Ask",
+      "confidence": 0.2525
+    },
+    {
+      "slide_num": 4,
+      "text": "He has the same problem\nmost of us do...\n\nFEAR OF\nREJECTION!",
+      "label": "Problem",
+      "confidence": 0.7562
+    },
+    {
+      "slide_num": 5,
+      "text": "Meet the cure...\n\nMatch Box\n\nLike people around you and\n\nget connected if they like you too\n\nf Sign In With Facebook",
+      "label": "Solution",
+      "confidence": 0.6865
+    },
+    {
+      "slide_num": 6,
+      "text": "rr oi wa\n\nLike or Not Matches Messages\n\nBrittany Michaéls\n\n20 friends & 50 interests in common\n\nThings In Common: Friends In Common",
+      "label": "Ask",
+      "confidence": 0.3756
+    },
+    {
+      "slide_num": 7,
+      "text": "Like or Not\n\nBrittany Michaels",
+      "label": "Other",
+      "confidence": 0.3842
+    },
+    {
+      "slide_num": 8,
+      "text": "Matt Pouldar\nHey Brittany! Looks like we have so much\nin common. Great to meet you!\n\nBrittany Michaels\n\nHeyyyy. Haha, yes we do. Wow this\nMatchBox thing is amazing! Surprised it\nworks.\n\nMatt Pouldar\nWell, we're already getting along, so yes,\n\n| guess this thing does really work!",
+      "label": "Ask",
+      "confidence": 0.2677
+    },
+    {
+      "slide_num": 9,
+      "text": "Under the hood\n\nNEW Signals for Relevence\n\ne Hyper-location (Using WIFI, not GPS)\ne Mutual liking\ne Social interests in common\n\ne Friends in common",
+      "label": "Ask",
+      "confidence": 0.2903
+    },
+    {
+      "slide_num": 10,
+      "text": "Revenue Opportunity\n\nIn-app Purchases\n\ne 2 matches exposed for free\n$1 to see each new match thereafter\ne Pay to send virtual flirt gifts (drink, rose, etc)\n\ne Pay to show up higher in Like or Not list",
+      "label": "Business Model",
+      "confidence": 0.6105
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+tqdm
+pymupdf
+pytesseract 
+pillow 
+pdf2image
+transformers
+torch
+pandas
+seaborn
+matplotlib
+dotenv
+openai==0.28

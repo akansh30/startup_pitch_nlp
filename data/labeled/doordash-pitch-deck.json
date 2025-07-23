@@ -1,0 +1,47 @@
+{
+  "deck_name": "doordash-pitch-deck",
+  "slides": [
+    {
+      "slide_num": 1,
+      "text": "We enable every\nrestaurant to deliver",
+      "label": "Solution",
+      "confidence": 0.1883
+    },
+    {
+      "slide_num": 2,
+      "text": "Lead Gen\n\nseamless |\n\nCourier\n\nS\n\nTaskRabbit\n\nMi\n*«\n® 4\n\nPOSTMATES\n\nIntegrated\n\n“wz DOORDASH",
+      "label": "Team",
+      "confidence": 0.3885
+    },
+    {
+      "slide_num": 3,
+      "text": "Average\n\ndelivery time\nminutes\n\n@ Doordash (Palo Santo) @ Peers (cities)\n\n“wz DOORDASH 10",
+      "label": "Team",
+      "confidence": 0.3003
+    },
+    {
+      "slide_num": 4,
+      "text": "31% week over week growth\n\n600\n500\n400\n300\n200\n\n100\n\n+ orders\n\n“= DOORDASH",
+      "label": "Team",
+      "confidence": 0.2249
+    },
+    {
+      "slide_num": 5,
+      "text": "$1.5\n\nMillion\n\nAnnualized\nrestaurant sales",
+      "label": "Market Size",
+      "confidence": 0.5059
+    },
+    {
+      "slide_num": 6,
+      "text": "a Merchand\nLogistics +) integration\n\n“3 DOORDASH",
+      "label": "Team",
+      "confidence": 0.2098
+    },
+    {
+      "slide_num": 7,
+      "text": "The Future:\nFedEx of Local",
+      "label": "Business Model",
+      "confidence": 0.2706
+    }
+  ]
+}

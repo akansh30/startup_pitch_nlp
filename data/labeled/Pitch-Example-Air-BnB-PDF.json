@@ -1,0 +1,77 @@
+{
+  "deck_name": "Pitch-Example-Air-BnB-PDF",
+  "slides": [
+    {
+      "slide_num": 1,
+      "text": "Welcome\n\nAirBed&Breakfast\n\nBook rooms with locals, rather than hotels.\n\nThis is a PowerPoint reproduction of an early AirBnB pitch deck via Business Insider @\nhttp://www. businessinsider.com/airbnb-a-13-billion-dollar-startups-first-ever-pitch-deck-2011-9",
+      "label": "Team",
+      "confidence": 0.2778
+    },
+    {
+      "slide_num": 2,
+      "text": "Problem 2\n\nPrice is an important concern for customers\nbooking travel online.\n\nHotels leave you disconnected from the city\nand its culture.\n\nNo easy way exists to book a room with a local\nor become a host.\n\nTemplate by PitchDeckCoach.com",
+      "label": "Problem",
+      "confidence": 0.4085
+    },
+    {
+      "slide_num": 3,
+      "text": "Solution 3\n\nA web platform where users can rent out their\nspace to host travelers to:\n\nSAVE MAKE SHARE\n\nMONEY | MONEY\n\nwhen traveling when hosting\n\nCULTURE\n\nlocal connection to the city\n\nTemplate by PitchDeckCoach.com",
+      "label": "Solution",
+      "confidence": 0.7614
+    },
+    {
+      "slide_num": 4,
+      "text": "Market Validation 4\n\n630,000 17,000\n\non temporary housing site temporary housing listings on SF\ncouchsurfing.com & NYC Craigslist from 07/09 — 07/16\n\nTemplate by PitchDeckCoach.com",
+      "label": "Market Size",
+      "confidence": 0.6339
+    },
+    {
+      "slide_num": 5,
+      "text": "Market Size 5\n\n1.9 Billion+\n\nTRIPS BOOKED (WORDLWIDE) BUDGET & ONLINE TRIPS TRIPS W/AB&B\nTotal Available Market Serviceable Available Market Market Share\n\nTemplate by PitchDeckCoach.com",
+      "label": "Market Size",
+      "confidence": 0.6975
+    },
+    {
+      "slide_num": 6,
+      "text": "Product\n\nSEARCH BY CITY ———> REVIEW LISTINGS —m—~> _ BOOKIT!\n\nNewport Beach, CA\n\nRoom Type @ © Entire Place\n\nMore Filters\n\ntment- ON THE BEACH\n\n04/4/2015\n\n$220 x tnight\nCleaning tee\n\nService tee @\n\nAbout This Listing\n\nTotal\n\nOceanfront Apartment on the beach. Directly in front of the boardwalk. 2 bedrooms, | bath. Enjoy the\ngreat view of Newport Beach's coastline and watch the people passing by. Walking distance to lots of\ngreat places. No need to drive anywhere.\n\nFa Facebook ~\n=)\n\nOceanfront Apartment- ON THE BEACH\na9 Newport Beach, CA United States a wr we we we (21)\n\nft\n\n¥\n\nTemplate by PitchDeckCoach.com",
+      "label": "Solution",
+      "confidence": 0.1978
+    },
+    {
+      "slide_num": 7,
+      "text": "Business Model 7\n\nWe take a 10% commission on each transaction.\n\n© —- $20 —— $200M\n\nTRIPS W/AB&B AVG FEE REVENUE\nShare of Market $70/night @ 3 nights 2008-2011\n\nTemplate by PitchDeckCoach.com",
+      "label": "Business Model",
+      "confidence": 0.6576
+    },
+    {
+      "slide_num": 8,
+      "text": "Market Adoption 8\n\nEVENTS PARTNERSHIPS CRAIGSLIST\ntarget events monthly cheap/alternative travel dual posting feature\n\nOctoberfest (6M) Golo CO\nCebit (700,000) — AirBnB\nSummerfest (1M) screenshot\nEurocup(3M+)\nMardi Gras (800,000) Pio\nKAYAK\nwith listing widget\nWidget screenshot ae\n\nTemplate by PitchDeckCoach.com",
+      "label": "Market Size",
+      "confidence": 0.197
+    },
+    {
+      "slide_num": 9,
+      "text": "Competition 9\n\nAFFORDABLE\n\nCS:\n\n| AirBed&Breakfast\n\nCouchSurfing\n\ncraigslist\n\n&3, BedandBreakfastcom Hostels [))/ com\nvery Hostel, Everywhere!\n\nOFFLINE TRANSACTION\n——\n\nONLINE TRANSACTION\n—_—_——_=>\n\nRent Smart!\n\nhotels.com\n\nMA VRBO\ny, .\n| { Vacation Rentals\n\nEXPENSIVE\n\nTemplate by PitchDeckCoach.com",
+      "label": "Team",
+      "confidence": 0.2465
+    },
+    {
+      "slide_num": 10,
+      "text": "Competitive Advantages 10\n\n15* TO MARKET HOST INCENTIVE LIST ONCE\nLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.\nInteger nec odio. Praesent Integer nec odio. Praesent Integer nec odio. Praesent\nlibero. libero. libero.\n\nPROFILES DESIGN & BRAND\nLorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit. consectetur adipiscing elit. consectetur adipiscing elit.\nInteger nec odio. Praesent Integer nec odio. Praesent Integer nec odio. Praesent\nlibero. libero. libero.\n\nTemplate by PitchDeckCoach.com",
+      "label": "Team",
+      "confidence": 0.293
+    },
+    {
+      "slide_num": 11,
+      "text": "he-ultimate-pitch-deck-template-by-\n\npitchdeckcoach",
+      "label": "Team",
+      "confidence": 0.3957
+    },
+    {
+      "slide_num": 12,
+      "text": "Did you enjoy this deck?\n\nRead my blog post on\n“The Pitch Deck”\n\nitchdeckcoach.com",
+      "label": "Ask",
+      "confidence": 0.3358
+    }
+  ]
+}
