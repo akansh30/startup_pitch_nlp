@@ -3,12 +3,12 @@ import json
 from tqdm import tqdm
 from transformers import pipeline
 
-# Paths
+# specified the paths
 INPUT_FOLDER = "data/extracted_pdfs"
 OUTPUT_FOLDER = "data/labeled"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# Define labels for classification
+# Defining labels for classification
 CATEGORIES = [
     "Problem",
     "Solution",
@@ -21,7 +21,7 @@ CATEGORIES = [
     "Other"
 ]
 
-# Load HuggingFace zero-shot classifier
+# Loading HuggingFace zero-shot classifier
 print("Loading model...")
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 print(" Model loaded!")
@@ -58,6 +58,6 @@ def classify_all_decks():
 
             print(f"Labeled: {filename} ({len(labeled_deck['slides'])} slides)")
 
-# Run all
+
 if __name__ == "__main__":
     classify_all_decks()

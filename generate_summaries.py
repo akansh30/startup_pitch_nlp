@@ -4,7 +4,7 @@ import pandas as pd
 from dotenv import load_dotenv
 import openai
 
-# Load API key
+# Loading API key
 load_dotenv()
 openai.api_key = os.getenv("GROQ_API_KEY")
 openai.api_base = "https://api.groq.com/openai/v1"

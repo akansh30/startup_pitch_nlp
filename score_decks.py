@@ -2,8 +2,8 @@ import os
 import json
 import pandas as pd
 
-# Define scoring dimensions
-CATEGORIES = ["Problem", "Market Size", "Traction", "Team", "Business Model", "Moat / Vision"]
+# Defining scoring dimensions
+CATEGORIES = ["Problem", "Solution", "Market Size", "Traction", "Team", "Business Model", "Moat / Vision"]
 
 def score_deck(deck_data):
     score_dict = {cat: 0.0 for cat in CATEGORIES}
@@ -15,12 +15,13 @@ def score_deck(deck_data):
     return score_dict
 
 def generate_insight(score, scores):
-    p = scores["Problem"]
-    m = scores["Market Size"]
-    t = scores["Traction"]
-    team = scores["Team"]
-    bm = scores["Business Model"]
-    moat = scores["Moat / Vision"]
+    p = scores.get("Problem", 0.0)
+    s = scores.get("Solution", 0.0)
+    m = scores.get("Market Size", 0.0)
+    t = scores.get("Traction", 0.0)
+    team = scores.get("Team", 0.0)
+    bm = scores.get("Business Model", 0.0)
+    moat = scores.get("Moat / Vision", 0.0)
 
     if score >= 5.0:
         return "Strong clarity and business signals i.e likely investor-ready."

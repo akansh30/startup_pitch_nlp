@@ -40,9 +40,5 @@ def process_all_pdfs_with_ocr(folder_path):
                 json.dump(output, f, indent=2, ensure_ascii=False)
             print(f"OCR Extracted: {deck_name} ({len(slides)} slides)")
 
-# Run OCR extraction
+# Runing the OCR extraction
 process_all_pdfs_with_ocr(PDF_FOLDER)
-
-
-
-
