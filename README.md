@@ -55,4 +55,50 @@ This project analyzes startup pitch decks using NLP and zero-shot classification
 
 <img width="2379" height="595" alt="image" src="https://github.com/user-attachments/assets/6384def9-bebf-4f30-84ca-1bf43b0984a6" />
 
+---
+## Scoring Logic
+
+Each pitch deck is first analyzed and its slides are classified into `9 `categories using a `zero-shot classification model`. These categories include `Problem, Solution, Market Size, Traction, Team, Business Model, Moat or Vision, Ask, and Other`.
+However, for scoring purposes, I only focus on `6` of the most important categories from an investor’s point of view. These are `Problem, Market Size, Traction, Team, Business Model, and Moat or Vision`. These categories reflect the main signals that investors usually look for when evaluating a startup.
+The scoring system works by adding up the confidence levels assigned by the classifier for each of these six dimensions. So if a pitch deck clearly explains its problem and team, and the model is confident in those classifications, the deck will receive `higher scores` in those areas. The total score is calculated by summing all six category scores.
+After the total score is calculated, a short insight is also generated to describe the investability of the deck. This insight is based on how strong the scores are across different categories and gives a quick summary of how promising the startup looks from an investor’s perspective
+---
+
+## Why facebook/bart-large-mnli?
+
+I used this model because it's a powerful `zero-shot classification model`. It helps categorize each slide in a pitch deck even if the model hasn’t seen those categories during training. This means it can understand and label slide content into topics like Problem, Market Size, or Team without needing custom training. It's a great fit for extracting structure from unstructured text.
+
+## Why Tesseract?
+
+Some of the pitch decks (4 PDFs) were not machine-readable..they were scanned or image-based. So I used Tesseract to extract text from those slides using OCR.
+
+## Why Groq LLaMA 3?
+I used the Groq LLaMA 3 model because it is a fast and powerful open-weight model. It helped generate summaries and classify startups based on their pitch decks. Being open and efficient made it a good fit for this task.
+
+---
+
+##  Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/akansh30/startup_pitch_nlp.git
+cd startup_pitch_nlp
+```
+### 2. Create virtual environment
+```bash
+uv venv .venv
+Source .venv\Scripts\activate  # On Windows
+```
+### 3. Install dependencies
+```bash
+uv pip install -r requirements.txt
+```
+### 4. Add API keys
+Create a `.env` file in the root directory and add:
+```bash
+GROQ_API_KEY=your_api_key_here
+```
+
+
 
