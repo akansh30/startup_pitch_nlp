@@ -58,10 +58,17 @@ This project analyzes startup pitch decks using NLP and zero-shot classification
 ---
 ## Scoring Logic
 
-Each pitch deck is first analyzed and its slides are classified into 9 categories using a zero-shot classification model. These categories include Problem, Solution, Market Size, Traction, Team, Business Model, Moat or Vision, Ask, and Other.
-However, for scoring purposes, I only focus on 6 of the most important categories from an investor’s point of view. These are Problem, Market Size, Traction, Team, Business Model, and Moat or Vision. These categories reflect the main signals that investors usually look for when evaluating a startup.
-The scoring system works by adding up the confidence levels assigned by the classifier for each of these six dimensions. So if a pitch deck clearly explains its problem and team, and the model is confident in those classifications, the deck will receive `higher scores` in those areas. The total score is calculated by summing all six category scores.
-After the total score is calculated, a short insight is also generated to describe the investability of the deck. This insight is based on how strong the scores are across different categories and gives a quick summary of how promising the startup looks from an investor’s perspective
+Each pitch deck is first analyzed and its slides are classified into 9 categories using a zero-shot classification model. These categories include:  
+**Problem**, **Solution**, **Market Size**, **Traction**, **Team**, **Business Model**, **Moat or Vision**, **Ask**, and **Other**.
+
+However, for scoring purposes, I only focus on 6 of the most important categories from an investor’s point of view. These are:  
+**Problem**, **Market Size**, **Traction**, **Team**, **Business Model**, and **Moat or Vision**.  
+These categories reflect the main signals that investors usually look for when evaluating a startup.
+
+The scoring system works by adding up the confidence levels assigned by the classifier for each of these six dimensions. So if a pitch deck clearly explains its problem and team, and the model is confident in those classifications, the deck will receive higher scores in those areas. The total score is calculated by summing all six category scores.
+
+After the total score is calculated, a short insight is also generated to describe the investability of the deck. This insight is based on how strong the scores are across different categories and gives a quick summary of how promising the startup looks from an investor’s perspective.
+
 ---
 
 ## Why facebook/bart-large-mnli?
