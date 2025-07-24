@@ -53,3 +53,6 @@ This project analyzes startup pitch decks using NLP and zero-shot classification
 
 ## Visualizations
 
+<img width="2379" height="595" alt="image" src="https://github.com/user-attachments/assets/6384def9-bebf-4f30-84ca-1bf43b0984a6" />
+
+
