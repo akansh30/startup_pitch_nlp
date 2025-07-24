@@ -8,7 +8,7 @@ This project analyzes startup pitch decks using NLP and zero-shot classification
 
 | Step | File | Output Location |
 |------|------|-----------------|
-|1️| `parse_pdf.py` | → `data/extracted_pdf/` (Extracted text from PDFs) |
+|1️| `parse_pdfs.py` | → `data/extracted_pdf/` (Extracted text from PDFs) |
 |2️| `classify_slides.py` | → `data/labeled/` (Slides labeled with categories and confidence) |
 |3️| `score_decks.py` | → `results/deck_scores.csv` (Scored decks with insights and ranking) |
 |4️| `visualize_scores.py` | → `output_visualizations/` (Radar charts, heatmaps, and barplot) |
